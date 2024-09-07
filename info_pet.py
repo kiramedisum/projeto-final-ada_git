@@ -10,6 +10,7 @@ def validar_idade(mensagem: str) -> int:
         except ValueError:
             print("Erro: por favor, insira um número válido para a idade.")
 
+
 # Coleta do peso do pet, garantindo que seja um número flutuante
 def validar_peso(mensagem: str) -> float:
     while True:
