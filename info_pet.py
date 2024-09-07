@@ -35,7 +35,7 @@ def coletar_informacoes_pet():
         print("\nInformações do pet:")
         print(f"Nome: {nome}")
         print(f"Idade: {idade} anos")
-        print(f"Peso: {peso:.2f} kg")
+        print(f"Peso: {peso} kg")
 
         # Perguntar se o usuário deseja adicionar outro pet
         continuar = input("\nVocê deseja adicionar outro pet? (s/n): ").strip().lower()
